@@ -1,0 +1,55 @@
+/* Write your CSS code here */
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.image-url {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.blog-details-container {
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-details-container {
+    width: 80%;
+  }
+}
+
+.title {
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.avatar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.author-name {
+  font-size: 15px;
+  margin-left: 8px;
+  color: #000000;
+  font-weight: 450;
+}
+
+.content {
+  color: #2f4f4f;
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
